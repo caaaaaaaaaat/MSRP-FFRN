@@ -1,14 +1,6 @@
 #Feature-fused residual network for time series classification
 This is the project of paper 'Feature-fused residual network for time series classification'.
 ![FFRN](FFRN_image.png "The framework of our proposed method")
-##Algorithm Introduction
-This paper proposes a feature fusion residual network method (FFRN) combined with multi-scale signed RP (MSRP). FFRN extracts and fuses multi-scale features using multi-scale modules, and then globally fuses features from all layers with different scales and levels of precision using residual connections. The effectiveness of this method has been demonstrated through experiments on 43 datasets from the UCR time series classification archive.The contributions of this paper are summarized as follows:
-
-1. To accommodate feature extraction at various scales, a multi-scale feature extraction network with residual connections is presented.
-
-2. This network's feature fusion module can combine feature maps of various layers and precisions to create higher-precision images, which enhances the image quality.
-
-3. Our proposed MSRP-FFRN achieves state-of-the-art performance on 43 UCR datasets. The effectiveness of each component of the method was verified by ablation experiments.
 
 ##Prerequisite
 
