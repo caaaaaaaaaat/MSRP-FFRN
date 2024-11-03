@@ -26,7 +26,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='MSRP-FFRN')
     parser.add_argument('--flag_train_or_test', type=str, default='Train',
                         help='pattern: Train, Test')
-    parser.add_argument('--ITERATIONS', type=int, default=1,
+    parser.add_argument('--ITERATIONS', type=int, default=10,
                         help='train the model for ITERATIONS times')
     parser.add_argument('--UNIVARIATE_ARCHIVE_NAMES', type=str, default='MSRP_UCR_Archive',
                         help='archive name: MSRP_UCR_Archive, RP_UCR_Archive, TRP_UCR_Archive')
